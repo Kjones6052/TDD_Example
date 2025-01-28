@@ -26,3 +26,51 @@ Test 3: /sum endpoint
 Ran 1 test in 0.020s
 
 OK
+
+
+Test 4: all endpoints (sum, subtract, multiply, divide)
+======================================================================
+ERROR: test_divide (__main__.TestAPI.test_divide)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\letky\Documents\Coding Temple\Specialization\TDD\test_app.py", line 35, in test_divide
+    self.assertEqual(data['result'], 5)
+                     ~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+ERROR: test_multiply (__main__.TestAPI.test_multiply)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\letky\Documents\Coding Temple\Specialization\TDD\test_app.py", line 28, in test_multiply
+    self.assertEqual(data['result'], 6)
+                     ~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+ERROR: test_subtract (__main__.TestAPI.test_subtract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\letky\Documents\Coding Temple\Specialization\TDD\test_app.py", line 21, in test_subtract
+    self.assertEqual(data['result'], 8)
+                     ~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.036s
+
+FAILED (errors=3)
+
+
+Test 5: all endpoints (sum, subtract, multiply, divide)
+----------------------------------------------------------------------
+Ran 4 tests in 0.027s
+
+OK
+
+
+Test 6: all endpoints (sum, subtract, multiply, divide)
+----------------------------------------------------------------------
+Ran 4 tests in 0.031s
+
+OK

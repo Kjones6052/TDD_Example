@@ -10,15 +10,26 @@ Action Steps Taken:
 7. create test_app.py file to write test cases (red stage)
 8. create test case for /sum endpoint (red stage)
 9. run test_app.py file => should fail => failed (red stage)
-10. create test_results.txt file and add first test results
+10. create test_results.txt file and add first test results (Test 1)
 11. create /sum endpoint route to get sum of two numbers (green stage)
-12. run test, add results to txt file
+12. run test, add results to txt file (Test 2)
 13. simplify code for /sum endpoint route (refactor stage)
 14. add error handling to /sum endpoint route (refactor stage)
-15. run test, add results to txt file
+15. run test, add results to txt file (Test 3)
 16. deactivate Python virtual environment
 17. create github repository and connect to project folder
 18. push project folder to github repository
+19. activate Python virtual environment
+20. create basic README file
+21. create test cases for new endpoints: subtract, multiply, divide
+22. run test file, add results to txt file (Test 4)
+23. create endpoints and routes for subtract, multiply, divide
+24. run test, add results to txt file (Test 5)
+25. refactor endpoint routes for subtract, multiply, divide
+26. run test, add results to txt file (Test 6)
+27. update README
+28. review Notes
+29. push update to github repository
 
 Project Notes:
 TDD => Test Driven Development
@@ -37,3 +48,4 @@ Unit Testing = test individual components in isolation to handle bugs
  
 when refactoring code consider error handling, use try/except blocks to handle any potential errors
 
+adding try/except blocks will handle potential errors more gracefully but may add to run time
