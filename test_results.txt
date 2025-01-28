@@ -1,0 +1,28 @@
+Test 1: /sum endpoint
+=========
+ERROR: test_sum (__main__.TestAPI.test_sum)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\letky\Documents\Coding Temple\Specialization\TDD\test_app.py", line 13, in test_sum
+    self.assertEqual(data['result'], 5)
+                     ~~~~^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+----------------------------------------------------------------------
+Ran 1 test in 0.023s
+
+FAILED (errors=1)
+
+
+Test 2: /sum endpoint
+----------------------------------------------------------------------
+Ran 1 test in 0.021s
+
+OK
+
+
+Test 3: /sum endpoint
+----------------------------------------------------------------------
+Ran 1 test in 0.020s
+
+OK

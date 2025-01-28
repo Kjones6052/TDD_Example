@@ -1,0 +1,39 @@
+Project Name: TDD Example
+
+Action Steps Taken:
+1. create project folder
+2. create Python vitrual environment
+3. activate Python vitrual environment
+4. pip install flask
+5. create app.py file
+6. create .gitignore file and add Python virtual environment to ignore list
+7. create test_app.py file to write test cases (red stage)
+8. create test case for /sum endpoint (red stage)
+9. run test_app.py file => should fail => failed (red stage)
+10. create test_results.txt file and add first test results
+11. create /sum endpoint route to get sum of two numbers (green stage)
+12. run test, add results to txt file
+13. simplify code for /sum endpoint route (refactor stage)
+14. add error handling to /sum endpoint route (refactor stage)
+15. run test, add results to txt file
+16. deactivate Python virtual environment
+17. create github repository and connect to project folder
+18. push project folder to github repository
+
+Project Notes:
+TDD => Test Driven Development
+
+write the tests before writing the code 
+
+helps improve code quality, speeds up development, and reduces bugs
+
+TDD Cycle = Red - Green - Refactor
+Red = write a test that fails, testing for functionality means the test should fail due to no implemented functionality
+Greed = write the simplest code that passes the test, discard any code that doesn't serve the purpose
+Refactor = improve the code, make it cleaner, more readable, and more efficient
+
+Unit Testing = test individual components in isolation to handle bugs
+ - the results of tests and the state of the application should not change the results of the test
+ 
+when refactoring code consider error handling, use try/except blocks to handle any potential errors
+
